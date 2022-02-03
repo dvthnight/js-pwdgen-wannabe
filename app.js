@@ -9,8 +9,16 @@ console.log(userColor)
 
 
 
+const userData = document.getElementById("user_data")
+console.log(userData)
+
+userData.innerHTML = `${userName} ${userSurname}`
 
 
+const passwordGenerata = document.getElementById("password")
+console.log(passwordGenerata)
+
+passwordGenerata.innerHTML = `${userName}${userSurname}${userColor}21`
 
 
 
